@@ -2,6 +2,6 @@
 
 for i in *.json
 do
-  packer build $i
+  packer build --only=virtualbox-iso $i
 done
 
