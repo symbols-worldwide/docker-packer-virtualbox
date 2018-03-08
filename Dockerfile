@@ -1,4 +1,4 @@
-FROM symbols/virtualbox:5.1
+FROM symbols/virtualbox
 
 LABEL maintainer="simon@widgit.com"
 
